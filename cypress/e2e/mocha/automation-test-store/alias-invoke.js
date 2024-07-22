@@ -1,6 +1,6 @@
 /// <reference types= 'cypress'/>
 
-describe('Alias and Invoke', () => {
+describe('Alias and Invoke Functionality', () => {
   beforeEach(() => {
     // cy.visit('/'); it will work if the baseurl mentioned
     cy.visit(Cypress.env('testurltwo'));

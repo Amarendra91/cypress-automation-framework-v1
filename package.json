@@ -1,0 +1,15 @@
+{
+  "name": "cypressbygiani",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amarendra Kumar Sahoo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}

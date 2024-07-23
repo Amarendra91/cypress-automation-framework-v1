@@ -15,4 +15,11 @@ describe('Verify mouse actions', () => {
       .trigger('mousemove')
       .trigger('mouseup', { force: true });
   });
+  it.only('User should be able to perform double mouse click.', () => {
+    cy.get('#actions')
+      .scrollIntoView()
+      .invoke('removeAttr', 'target')
+      .click({ force: true });
+    cy.get('#double-click').dblclick();
+  });
 });
